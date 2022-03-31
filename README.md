@@ -4,7 +4,7 @@ Gatling plugin for SBT - Scala demo project
 ## Requirements
 1. JDK 11
 2. SBT
-3. Scala (Plugin for scala)
+3. Scala (Plugin for Idea)
 ---
 ## To run scenario
 1. Clone the repo `git clone https://github.com/Lylko/gatlingDemo.git`
