@@ -10,6 +10,7 @@ case class VisitScenario() extends BaseSimulation {
     scenario(getClass.getSimpleName)
       .exec(HomePage.getHomePage).exitHereIfFailed
 
-  setUp(scn.inject(atOnceUsers(1)).protocols(httpProtocol))
+  val populationBuilder = setInjectionProfile(scn, getClass.getSimpleName).protocols(httpProtocol)
+  setUp(populationBuilder)
 
 }
