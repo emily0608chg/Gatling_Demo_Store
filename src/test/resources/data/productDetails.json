@@ -1,0 +1,55 @@
+[
+  {
+    "id" : 17,
+    "slug" : "casual-black-blue",
+    "categoryName" : "For Him",
+    "name" : "Casual Black-Blue",
+    "description" : "Some casual black & blue glasses",
+    "price" : 24.99
+  },
+  {
+    "id" : 19,
+    "slug" : "black-and-red-glasses",
+    "categoryName" : "For Him",
+    "name" : "Black and Red Glasses",
+    "description" : "A Black & Red glasses case",
+    "price" : 18.99
+  },
+
+  {
+    "id" : 20,
+    "slug" : "bright-yellow-glasses",
+    "categoryName" : "For Him",
+    "name" :"Bright Yellow Glasses",
+    "description" :"A glasses case that is bright yellow" ,
+    "price" : 17.99
+  },
+
+  {
+    "id" : 26,
+    "slug" : "perfect-pink",
+    "categoryName" : "For Her",
+    "name" : "Perfect Pink",
+    "description" : "Perfectly pink glasses case",
+    "price" : 19.99
+  },
+
+  {
+    "id" :28,
+    "slug" : "black-grey-curved",
+    "categoryName" : "For Her",
+    "name" : "Black Grey Curved ",
+    "description" : "Glasses case with a black grey curved design",
+    "price" : 14.99
+  },
+
+  {
+    "id" : 29,
+    "slug" : "black-light-blue",
+    "categoryName" : "For Her",
+    "name" : "Black Light Blue",
+    "description" : "Case with an ocean blue design on black",
+    "price" : 23.99
+  }
+
+]

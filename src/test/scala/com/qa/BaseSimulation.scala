@@ -1,19 +1,15 @@
 package com.qa
 
+import com.qa.utils.ConfigUtils
 import io.gatling.core.Predef._
-import io.gatling.core.structure.ScenarioBuilder
+import io.gatling.core.structure._
 import io.gatling.http.Predef._
-
 import scala.concurrent.duration.DurationInt
 
-class BaseSimulation extends Simulation {
-
-  val durationMeasurements = "seconds"
-  val simulationDuration = 2
-  val loadUsers = 1
+class BaseSimulation extends Simulation with ConfigUtils {
 
   val httpProtocol = http
-    .baseUrl("http://demostore.gatling.io/")
+    .baseUrl(BaseUrl)
     .acceptHeader("text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8")
     .acceptEncodingHeader("gzip, deflate")
     .acceptLanguageHeader("en-US,en;q=0.5")
